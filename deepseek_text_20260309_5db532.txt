@@ -1,0 +1,55 @@
+# Configuration sensitive files
+config/database.php
+config/mail.php
+.env
+*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+error_log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache and temp
+/cache
+/tmp
+/temp
+/var/cache
+/var/tmp
+
+# Upload directories (important for your music platform)
+/uploads/
+/uploads/musique/
+/uploads/covers/
+/uploads/temp/
+
+# Dependencies (if you use Composer later)
+/vendor/
+/composer.lock
+/composer.phar
+
+# PHPUnit
+/phpunit.xml
+.phpunit.result.cache
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Development environment
+/.env
+/.env.local
+/.env.dev
+/.env.prod
